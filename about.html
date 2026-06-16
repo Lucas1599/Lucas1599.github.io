@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Mateus Pedrozo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="./assents/favicon.icon">
+</head>
+<body>
+
+<header>
+    <h1>Meu Blog</h1>
+
+    <img src="./assents/Lucas.png" class="profile-img">
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">Sobre</a>
+        <a href="curriculum.html">Currículo</a>
+        <a href="contact.html">Contato</a>
+        <a href="receitas.html">Receitas</a>
+    </nav><br>
+    
+    <div class="controls">
+        <button onclick="diminuirFonte()">A-</button>
+        <button onclick="aumentarFonte()">A+</button>
+        <button onclick="toggleTheme()" id="temaBtn">🌙</button>
+    </div>
+</header>
+
+<main>
+
+    <!-- SOBRE -->
+    <section class="card profile">
+        <h2>Sobre Mim</h2>
+    </section>
+
+    <section class="card">
+
+        <h2 class="profile">🧠 Quem sou eu?</h2>
+
+        <p>
+            Meu nome é Lucas Mateus Pedrozo, e eu sou o tipo de pessoa que gosta de entender como as coisas funcionam de verdade.
+        </p>
+
+        <p>
+            Tenho interesse por áreas como engenharia, programação, física, astronomia e biologia. No geral, tudo que envolve lógica, sistemas e funcionamento do mundo chama minha atenção. Também gosto de estudar línguas e explorar diferentes formas de conhecimento.
+        </p>
+
+    </section>
+    <section class="card">
+        
+        <h2 class="profile">📖 Criando histórias</h2>
+
+        <p>Além da parte lógica, também tenho interesse em criação.</p>
+        <p>Estou desenvolvendo uma história de ficção científica inspirada em obras como Guerra Mundial Z e The Last of Us.</p>
+        <p>Nesse processo, eu busco:</p><br>
+
+        <ul>
+            <li>Construir um mundo coerente</li>
+            <li>Trabalhar com base em conceitos científicos</li>
+            <li>Criar conexões entre eventos e personagens</li>
+            <li>Desenvolver enredos com lógica e consistência</li>
+        </ul><br>  
+
+        <p>Eu gosto de tratar a narrativa como um sistema que precisa fazer sentido em todos os aspectos.</p>
+
+    </section>
+    <section class="card">
+
+        <h2 class="profile">🎯 Pontos fortes</h2>
+        <ul>
+            <li>Pensamento lógico e analítico</li>
+            <li>Curiosidade intelectual</li>
+            <li>Interesse por temas complexos</li>
+            <li>Capacidade de estruturar ideias</li>
+            <li>Criatividade com base em lógica</li>
+        </ul>
+
+    </section>
+    <section class="card">
+
+        <h2 class="profile">⚠️ Pontos em desenvolvimento</h2>
+        <ul>
+            <li>Manter constância em atividades por longos períodos</li>
+            <li>Evitar excesso de análise antes de agir</li>
+            <li>Melhorar eficiência no processo de aprendizagem</li>
+        </ul>
+    </section>
+
+    <!-- OBJETIVOS -->
+    <section class="card">
+        <h2 class="profile">🚀 Objetivos</h2>
+        <p>Meus objetivos estão ligados tanto ao desenvolvimento técnico quanto ao criativo.</p><br>
+        
+        <ol>
+        <li>No lado técnico, busco:</li>
+    
+        <ul>
+            <li>Aprofundar meus conhecimentos em áreas como programação e design</li>
+            <li>Desenvolver habilidades práticas que me permitam criar e entender sistemas reais</li>
+            <li>Construir uma base sólida de conhecimento para o futuro</li>
+        </ul><br>
+
+        <li>No lado criativo, pretendo:</li>
+        <ul>
+            <li>Desenvolver e finalizar minhas histórias de ficção científica</li>
+            <li>Criar narrativas consistentes, com base lógica e científica</li>
+            <li>Evoluir minha capacidade de construção de mundo (worldbuilding)</li>
+        </ul><br>
+
+        <li>Além disso, tenho como objetivo geral:</li>
+        <ul>
+            <li>Melhorar minha consistência</li>
+            <li>Aprender de forma mais eficiente</li>
+            <li>Evoluir continuamente, respeitando meu próprio ritmo</li>
+        </ul>
+        </ol>
+    </section>
+
+    <!-- HOBBIES -->
+    <section class="card">
+        <h2 class="profile">Hobbies</h2>
+        <ul>
+            <li>🎮 Jogar videogame</li>
+            <li>🎬 Assistir animes</li>
+            <li>🎲 Jogar RPG</li>
+        </ul>
+    </section>
+
+    <!-- ABAS -->
+    <section id="influencias" class="card">
+        <h2 class="profile">Alguns dos meus favoritos</h2>
+        <div class="tabs">
+            <button class="tab-btn" data-tab="musicas">Músicas</button>
+            <button class="tab-btn" data-tab="filmes">Filmes</button>
+            <button class="tab-btn" data-tab="livros">Livros</button>
+        </div>
+
+        <ul>
+
+        <!-- MÚSICA 1 -->
+        <div id="musicas" class="tab-content">
+        <li class="music-item">
+            <div class="music-header">
+                <span class="toggle-icon">+</span>
+                <span>Enemy — Imagine Dragons</span>
+            </div>
+
+            <div class="music-content">
+                <iframe 
+                    style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/5UlnuulVAVmmesw4VzqHdG"
+                    width="100%" 
+                    height="352"
+                    frameborder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy">
+                </iframe>
+            </div>
+        </li>
+
+        <!-- MÚSICA 2 -->
+        <li class="music-item">
+            <div class="music-header">
+                <span class="toggle-icon">+</span>
+                <span>Smells Like Teen Spirit — Nirvana</span>
+            </div>
+
+            <div class="music-content">
+                <iframe 
+                    style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/1f3yAtsJtY87CTmM8RLnxf"
+                    width="100%" 
+                    height="352"
+                    frameborder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy">
+                </iframe>
+            </div>
+        </li>
+        
+        <!-- MÚSICA 3 -->
+        <li class="music-item">
+            <div class="music-header">
+                <span class="toggle-icon">+</span>
+                <span>Numb — Linkin Park</span>
+            </div>
+
+            <div class="music-content">
+                <iframe
+                    style="border-radius:12px" 
+                    src="https://open.spotify.com/embed/track/2nLtzopw4rPReszdYBJU6h?utm_source=generator" 
+                    width="100%" 
+                    height="352" 
+                    frameBorder="0" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </li>
+
+        <!-- MÚSICA 4 -->
+        <li class="music-item">
+            <div class="music-header">
+                <span class="toggle-icon">+</span>
+                <span>Hardwired — Metallica</span>
+            </div>
+
+            <div class="music-content">
+                <iframe
+                    style="border-radius:12px" 
+                    src="https://open.spotify.com/embed/track/01JszWYuKqRjddPQ4creVF?utm_source=generator" 
+                    width="100%" 
+                    height="352" 
+                    frameBorder="0" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy">
+                </iframe>
+            </div>
+
+            <!-- MÚSICA 5 -->
+            <li class="music-item">
+            <div class="music-header">
+                <span class="toggle-icon">+</span>
+                <span>Highway to Well — AC/DC</span>
+            </div>
+
+            <div class="music-content">
+                <iframe
+                    style="border-radius:12px" 
+                    src="https://open.spotify.com/embed/track/2zYzyRzz6pRmhPzyfMEC8s?utm_source=generator" 
+                    width="100%" 
+                    height="352" 
+                    frameBorder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy">
+                </iframe>
+            </div>
+
+            <!-- MÚSICA 6 -->
+            <li class="music-item">
+            <div class="music-header">
+                <span class="toggle-icon">+</span>
+                <span>Leave It All Behind — Cult To Follow</span>
+            </div>
+
+            <div class="music-content">
+                <iframe 
+                    style="border-radius:12px" 
+                    src="https://open.spotify.com/embed/track/4I58RPHVzDldHfK3t5HiZA?utm_source=generator" 
+                    width="100%" 
+                    height="352" 
+                    frameBorder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy">
+                </iframe>
+            </div>
+
+            </div>
+        </li>
+    </ul>
+
+        <!-- FILMES -->
+        <div id="filmes" class="tab-content">
+        <div class="media-grid">
+
+            <div class="media-card">
+                <h3>🎬 Senhor dos Anéis</h3>
+                <p>Fantasia épica com batalhas e construção de mundo profunda.</p>
+            </div>
+
+            <div class="media-card">
+                <h3>🧝 O Hobbit</h3>
+                <p>Aventura no universo de Tolkien com foco em jornada e descoberta.</p>
+            </div>
+
+            <div class="media-card">
+                <h3>💥 Ação</h3>
+                <p>Filmes intensos, ritmo acelerado e combates estratégicos.</p>
+            </div>
+
+            <div class="media-card">
+                <h3>🚀 Ficção Científica</h3>
+                <p>Exploração de tecnologia, espaço e ideias futuristas.</p>
+            </div>
+
+        </div>
+    </div>
+
+        <!-- LIVROS -->
+        <div id="livros" class="tab-content">
+        <div class="media-grid">
+
+            <div class="media-card">
+                <h3>📖 A Arte da Guerra</h3>
+                <p>Estratégia, disciplina e visão tática.</p>
+            </div>
+
+            <div class="media-card">
+                <h3>⚡ Harry Potter</h3>
+                <p>Magia, crescimento e construção de mundo envolvente.</p>
+            </div>
+
+            <div class="media-card">
+                <h3>🪓 Mitologia Nórdica</h3>
+                <p>Histórias dos deuses reinterpretadas por Neil Gaiman.</p>
+            </div>
+
+            <div class="media-card">
+                <h3>🔥 A Sutil Arte de Ligar o F*da-se</h3>
+                <p>Perspectiva direta sobre escolhas e prioridades.</p>
+            </div>
+
+        </div>
+    </div>
+
+    </section>
+
+<footer>
+    © 2026 - Lucas Mateus Pedrozo - GLP. Blog Desenvolvido na Disciplina de Web Lab
+</footer>
+
+</main>
+
+<script src="./js/tabs.js"></script>
+<script src="./js/music.js"></script>
+<script src="./js/script.js"></script>
+
+</body>
+</html>
