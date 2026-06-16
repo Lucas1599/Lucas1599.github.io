@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
             titulo: "🧪 Ácido Sulfúrico — Elixir Corrosivo",
             conteudo: "Mistura experimental com propriedades energéticas.",
             categoria: "RECEITAS",
-            link: "receitas.html #drink"
+            link: "receitas.html"
         },
         {
             titulo: "🧠 Influências",
